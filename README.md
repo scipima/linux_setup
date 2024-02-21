@@ -29,11 +29,11 @@ $ sudo intel_gpu_top
 $ glxgears
 
 
-Kernel (https://wiki.debian.org/NvidiaGraphicsDrivers)
+## Kernel (https://wiki.debian.org/NvidiaGraphicsDrivers)
 
 [How to install Backports in Debian/Ubuntu/Mint](https://www.youtube.com/watch?v=pcJe1LqOBv4)
 
 In some cases, if you're aiming to install the bleeding-edge version of the NVIDIA driver from Debian Backports, you may also need to install the kernel from backports to match it. For Debian 10, you might do this with:
 
-# sudo apt install -t bookworm-backports linux-image-amd64 firmware-linux firmware-linux-nonfree 
-# sudo apt install -t bookworm-backports linux-headers-amd64
+$ sudo apt install -t bookworm-backports linux-image-amd64 firmware-linux firmware-linux-nonfree 
+$ sudo apt install -t bookworm-backports linux-headers-amd64
